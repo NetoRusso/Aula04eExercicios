@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Neto Russo">
+  <title>Aula04 || Semântica</title>
+</head>
+
+<body>
+
+  <!-- Cabeçalho da Página -->
+  <header>
+    <h1>Semântica</h1>
+
+    <!-- Menu de Links -->
+    <nav>
+      <ul>
+        <li>
+          <h3><a href="./index.html">Home</a></h3>
+        </li>
+        <li>
+          <h3><a href="./imagens.html">Imagem</a></h3>
+        </li>
+        <li>
+          <h3><a href="./about.html">Sobre</a></h3>
+        </li>
+        <li>
+          <h3><a href="./faq.html">F.A.Q.</a></h3>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Corpo principal! -->
+  <main>
+
+    <!-- 
+      aria-labelledby ====> Referencia o Id do subtitulo para facilitar a acessibilidade
+     -->
+
+
+    <section aria-labelledby="nossaHistoria">
+      <h2 id="nossaHistoria">Nossa História</h2>
+      <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium rerum velit iure eligendi? Commodi minus expedita eius sit voluptate quam beatae. Cupiditate optio voluptatem alias error molestias ut iusto. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero soluta, voluptatum temporibus nisi modi consequatur rem? Maxime molestiae sed repudiandae voluptatibus eum nisi laborum quod id quisquam consequatur! Nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aliquam iste libero doloribus accusamus, eius minima in autem at, nemo explicabo repudiandae quia voluptate? Obcaecati ipsa aliquid numquam beatae non?</p>
+      </div>
+    </section>
+    <section aria-labelledby="nossosClientes">
+      <h2 id="nossosClientes">Nossos CLientes</h2>
+      <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium rerum velit iure eligendi? Commodi minus expedita eius sit voluptate quam beatae. Cupiditate optio voluptatem alias error molestias ut iusto. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero soluta, voluptatum temporibus nisi modi consequatur rem? Maxime molestiae sed repudiandae voluptatibus eum nisi laborum quod id quisquam consequatur! Nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aliquam iste libero doloribus accusamus, eius minima in autem at, nemo explicabo repudiandae quia voluptate? Obcaecati ipsa aliquid numquam beatae non?</p>
+      </div>
+    </section>
+    <section aria-labelledby="imprensa">
+      <h2 id="imprensa">imprensa</h2>
+      <div>
+        <article aria-label="titulo do Post 01">
+          <h3>Titulo do Post01</h3>
+          <div>
+            <img src="./adorable-cat-with-abstract-colorful-graphic-background.jpg" alt="gato" width="300" height="auto" >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates est alias. Sunt, vel qui. Dignissimos eum, in obcaecati pariatur modi sint animi molestias quod dolores quis? Praesentium, fugit veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae eos iure fugit debitis quia tempora alias voluptatibus rem ullam, expedita ad nemo quas quod repellat quam aperiam ex incidunt sunt!
+            </p>
+          </div>
+        </article>
+        <article aria-label="titulo do Post 02">
+          <h3>Titulo do Post02</h3>
+          <div>
+            <img src="./closeup-shot-curious-pug-gray-wall.jpg" alt="cachorro" width="300" height="auto" >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates est alias. Sunt, vel qui. Dignissimos eum, in obcaecati pariatur modi sint animi molestias quod dolores quis? Praesentium, fugit veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae eos iure fugit debitis quia tempora alias voluptatibus rem ullam, expedita ad nemo quas quod repellat quam aperiam ex incidunt sunt!
+            </p>
+          </div>
+        </article>
+        <article aria-label="titulo do Post 03">
+          <h3>Titulo do Post03</h3>
+          <div>
+            <img src="./selective-focus-shot-mallard-duck-water.jpg" alt="pato" width="300" height="auto" >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates est alias. Sunt, vel qui. Dignissimos eum, in obcaecati pariatur modi sint animi molestias quod dolores quis? Praesentium, fugit veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae eos iure fugit debitis quia tempora alias voluptatibus rem ullam, expedita ad nemo quas quod repellat quam aperiam ex incidunt sunt!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <aside>
+    <nav>
+      <ul>
+        <li>
+          <h3><a href="#nossaHistoria">Nossa História</a></h3>
+        </li>
+        <li>
+          <h3><a href="#nossosClientes">Nossos Clientes</a></h3>
+        </li>
+        <li>
+          <h3><a href="#imprensa">Imprensa</a></h3>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  </aside>
+  <!-- &copy ===> copywriter -->
+  <footer>
+    <p>Todos os direitos reservados &copy; 2024-Neto Russo</p>
+  </footer>
+
+</body>
+
+</html>
